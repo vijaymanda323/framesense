@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: framesense-backend
+    runtime: docker
+    plan: starter
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PORT
+        value: 8000

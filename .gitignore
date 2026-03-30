@@ -1,0 +1,11 @@
+# FrameSense Backend – Python 3.10+ | Windows / Linux / macOS
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+*.log
+models/*.pt
+models/*.pth
